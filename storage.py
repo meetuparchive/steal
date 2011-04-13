@@ -1,3 +1,4 @@
+from __future__ import with_statement
 import sqlite3
 
 conn = sqlite3.connect("meetups.sqlite")
