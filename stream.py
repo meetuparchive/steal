@@ -14,5 +14,3 @@ def jsonizer(event_callback):
     conn.setopt(pycurl.URL, "http://stream.meetup.com/2/open_events")
     conn.setopt(pycurl.WRITEFUNCTION, consume)
     conn.perform()
-
-
