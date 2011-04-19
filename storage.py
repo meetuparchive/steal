@@ -15,4 +15,4 @@ def event_callback(event):
         values = [event.get(k, None) for k in ['id', 'name', 'description', 'event_url', 'time']]
         conn.execute("""insert or replace into event values
                         (?, ?, ?, ?, ?)""", values)
-        print("added %s" % event['name'])
+        print("stored %s" % event['name'])
