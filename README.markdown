@@ -10,3 +10,8 @@ current directory, then proceeds to insert or update events as they
 arrive. Event names are printed to stdout.
 
 [doc]: http://www.meetup.com/meetup_api/docs/stream/2/open_events/
+
+
+See Also: [Steal This Database][blog]
+
+[blog]: http://making.meetup.com/post/4774766737/steal-this-database
